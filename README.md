@@ -6,6 +6,8 @@ Buffer `data` from a stream into an array if a callback is provided
 npm install stream-collector
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/stream-collector.svg?style=flat)](http://travis-ci.org/mafintosh/stream-collector)
+
 ## Usage
 
 ``` js
