@@ -1,6 +1,6 @@
 {
   "name": "stream-collector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Buffer data from a stream into an array if a callback is provided",
   "main": "index.js",
   "dependencies": {
