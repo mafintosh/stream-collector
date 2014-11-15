@@ -17,7 +17,7 @@ collect(stream, function(err, list) {
 ```
 
 The `stream` is always returned from the function. If a callback isn't provided no buffering will occur.
-This allows you to do the following pattern
+This allows you to do the following pattern where if you provide a callback the stream will be buffered (similar to how [request](https://github.com/mikeal/request) works)
 
 ``` js
 var read = function(cb) {
