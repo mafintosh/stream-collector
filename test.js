@@ -1,4 +1,4 @@
-var collect = require('stream-collector')
+var collect = require('./')
 var tape = require('tape')
 var through = require('through2')
 
